@@ -1,2 +1,2 @@
 # invoice-audit-automation
-Automated invoice audit and reconciliation tool that cross-references 1,000+ invoices against Gmail to verify delivery status. Reduced manual audit time by 95%. From 1.5 hours to under 5 minutes with 97% accuracy.. Built with Microsoft Excel Power Query, JavaScript, Google Apps Script &amp; Gmail API.
+Automated invoice audit and reconciliation tool that cleans and transforms raw billing data via Power Query, then cross-references 1000+ invoices against Gmail to verify delivery status, recipient, and billing accuracy. Built with Power Query, JavaScript, Google Apps Script, & Gmail API. Reduced manual audit time by 95% - from 1.5 hours to under 5 minutes with 97% accuracy.
