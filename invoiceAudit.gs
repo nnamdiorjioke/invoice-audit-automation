@@ -10,7 +10,7 @@ function checkAllInvoices() {
     
     if (cvStatus == "Sent") {
       sheet.getRange(i, 8).setValue("Verified In System");
-      sheet.getRange(i, 8).setBackground("c9c9c9");
+      sheet.getRange(i, 8).setBackground("#c9c9c9");
       continue;
     }
 
@@ -29,7 +29,7 @@ function checkAllInvoices() {
 
     if (threads.length > 0){
       statusCell.setValue("Found & Sent");
-      statusCell.setBackground("99ff99"); // green
+      statusCell.setBackground("#99ff99"); // green
     } else {
       statusCell.setValue("Not Found");
       statusCell.setBackground("#ffff99"); // yellow
