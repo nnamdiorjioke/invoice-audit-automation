@@ -8,7 +8,7 @@ function checkAllInvoices() {
     var invoiceNum = invoiceCell.getValue();
     var cvStatus = sheet.getRange(i, 6).getValue(); // Column F
     
-    if (cvStatus == "Sent") {
+    if (recordStatus == "Sent") {
       sheet.getRange(i, 8).setValue("Verified In System");
       sheet.getRange(i, 8).setBackground("#c9c9c9");
       continue;
